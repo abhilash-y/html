@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h2>Paymant form </h2>
+<font color="red">ALL field are REQUIRED </font>
+<form id="contact">
+<label>first Name *</label>
+<input name="custname" placeholder="first and " required="required" /> <br/>
+<label>last name *</label>
+<input name="custname" placeholder="last name" /> <br/>
+street address<br/>
+<label>City</label>
+<input name="city" value=".." /><br/>
+<label>state</label>
+<input name="state" value=".." /><br/>
+<label>zip code</label>
+<input name="zipc" value=".." /><br/>
+ 
+<label>E-mail *</label>
+<input name="email" required="required" /><br/>
+<label>credit card type</label><br/>
+<form action="">
+  <input type="radio" name="type" value="master card"> master card<br>
+  <input type="radio" name="type" value="visa"> visa<br>
+  <input type="radio" name="type" value="discover"> discover<br/>
+</form>
+<label>credit card number</label>
+<input name="credit card" placeholder="number"/><br/>
+<label>expiration date</label>
+<select name="month" >
+<option value="month">--month--</option>
+</select>
+<select name="date" >
+<option value="date">--date--</option>
+</select><br/>
+special notes<br/>
+<textarea rows="8" cols="30">
+ enter notes here
+</textarea>
+<br/><br/>
+<input type="submit" value="Submit payment" />
+</form>
+</body>
+</html>
